@@ -1,0 +1,30 @@
+body {
+    font-family: "Kanit";
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00004b; /* Синий цвет */
+    color: #ffffff; /* Золотой цвет */
+    padding: 20px;
+}
+
+.footer-item {
+    flex-basis: 20%;
+}
+
+.footer-item h3 {
+    border-bottom: 2px solid #ffffff; /* Золотой цвет */
+}
+
+.footer-item a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-item img {
+    width: 24px;
+    height: 24px;
+}
+
